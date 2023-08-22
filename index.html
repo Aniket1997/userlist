@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <form id="dataForm">
+           
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="date" id="dateOfBirth" placeholder="Date of Birth" style="border-radius: 6px;border: 1px solid #c5c5c5;" required>
+            <input type="number" id="age" placeholder="Age" style="width: 45px;" required>
+            <button type="submit">Add</button>
+        </form>
+        
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th style="text-align: center;">Age</th>
+                    <th style="text-align: center;">Action</th>
+                </tr>
+            </thead>
+            <tbody> 
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

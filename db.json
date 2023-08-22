@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "name": "Paul",
+      "dateOfBirth": "1997-11-16",
+      "age": 25,
+      "id": 1
+    },
+    {
+      "name": "Aniket Paul 🇮🇳",
+      "dateOfBirth": "2003-05-04",
+      "age": 20,
+      "id": 2
+    }
+  ]
+}
