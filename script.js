@@ -85,17 +85,14 @@ document.addEventListener('DOMContentLoaded', async function () {
     async function handleSaveClick(row) {
         const id = row.querySelector('.edit-button').dataset.id;
         const newName = row.querySelector('.edit-name').value;
-        const newDob = row.querySelector('.edit-dob').value;
+        const newDobInput = row.querySelector('.edit-dob');
+        const newDob = newDobInput.value; // Get the value from the input
+        const newAge = calculateAge(newDob);
     
-        // Calculate new age based on the updated date of birth
-        const dob = new Date(newDob);
-        const today = new Date();
-        const newAge = today.getFullYear() - dob.getFullYear() - (today.getMonth() < dob.getMonth() || (today.getMonth() === dob.getMonth() && today.getDate() < dob.getDate()) ? 1 : 0);
-    
-        const success = await updateData(id, newName, newDob, newAge); // Pass newAge to updateData
+        const success = await updateData(id, newName, newDob, newAge);
     
         if (success) {
-            renderData();
+            await renderData();
         }
     
         row.querySelector('.delete-button').style.display = 'block';
@@ -103,8 +100,12 @@ document.addEventListener('DOMContentLoaded', async function () {
         actionCell.classList.remove('expanded-cell');
     }
     
-    
-
+    function calculateAge(dateOfBirth) {
+        const dob = new Date(dateOfBirth);
+        const today = new Date();
+        const age = today.getFullYear() - dob.getFullYear() - (today.getMonth() < dob.getMonth() || (today.getMonth() === dob.getMonth() && today.getDate() < dob.getDate()) ? 1 : 0);
+        return age;
+    }
 
     async function handleDeleteClick(id) {
         const success = await deleteData(id);
