@@ -76,16 +76,17 @@ $(document).ready(async function () {
     }
 
     async function handleSaveClick(row) {
-        const id = $(row).find('.edit-button').data('id');
-        const newName = $(row).find('.edit-name').val();
-        const newDob = $(row).find('.edit-dob').val();
-
+        const id = row.querySelector('.edit-button').dataset.id;
+        const newName = row.querySelector('.edit-name').value;
+        const newDob = row.querySelector('.edit-dob').value;
+    
+        // Calculate new age based on the updated date of birth
         const dob = new Date(newDob);
         const today = new Date();
         const newAge = today.getFullYear() - dob.getFullYear() - (today.getMonth() < dob.getMonth() || (today.getMonth() === dob.getMonth() && today.getDate() < dob.getDate()) ? 1 : 0);
-
-        const success = await updateData(id, newName, newDob, newAge);
-
+    
+        const success = await updateData(id, newName, newDob, newAge); // Pass newAge to updateData
+    
         if (success) {
             await renderData();
         }
@@ -94,6 +95,9 @@ $(document).ready(async function () {
         const actionCell = $(row).find('.action-buttons');
         actionCell.removeClass('expanded-cell');
     }
+    
+    
+
 
     async function handleDeleteClick(id) {
         const success = await deleteData(id);

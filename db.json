@@ -1,16 +1,28 @@
 {
   "data": [
     {
-      "name": "Paul",
-      "dateOfBirth": "1997-11-16",
-      "age": 25,
+      "name": "John",
+      "dateOfBirth": "1999-01-11",
+      "age": 24,
       "id": 1
     },
     {
-      "name": "Aniket Paul 🇮🇳",
-      "dateOfBirth": "2003-05-04",
-      "age": 20,
-      "id": 2
+      "id": 2,
+      "name": "Jane Smith",
+      "dateOfBirth": "1985-10-21",
+      "age": 38
+    },
+    {
+      "name": "Anikt Paul",
+      "dateOfBirth": "1997-11-16",
+      "age": "25",
+      "id": 3
+    },
+    {
+      "name": "Swati shah",
+      "dateOfBirth": "2004-05-10",
+      "age": 19,
+      "id": 4
     }
   ]
 }
