@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 904px;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
@@ -15,7 +15,7 @@ body {
 }
 
 form {
-    display: flex;
+    display: contents;
     gap: 10px;
     height: 40px;
 }
@@ -60,7 +60,7 @@ table th, table td {
     width: 238px;
 }
 #dateOfBirth {
-    width: 100%;
+    width: 33%;
     padding: 8px;
     box-sizing: border-box;
 }

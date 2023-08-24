@@ -11,18 +11,30 @@
 <body>
     <div class="container">
         <form id="dataForm">
-           
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="date" id="dateOfBirth" placeholder="Date of Birth" style="border-radius: 6px;border: 1px solid #c5c5c5;" required>
-            <input type="number" id="age" placeholder="Age" style="width: 45px;" required>
+            <input type="text" id="name" placeholder="Name" style="width: 33%;" required>
+            <input type="date" id="dateOfBirth" placeholder="Date of Birth" style="border-radius: 4px;border: 1px solid #c5c5c5;" required>
+            <input type="number" id="age" placeholder="Age" style="width: 27%;" required>
+            <br/>
+            <br/>
+            <input type="text" id="district" placeholder="District" required style="width: 34%;">
+            <div id="districtDropdown" style="display: none;"></div>
+            <input type="text" id="state" placeholder="State" required style="width: 25%;">
+            <input type="text" id="country" placeholder="Country" required style="width: 25%;">
             <button type="submit">Add</button>
         </form>
+        <br/>
+        <br/>
+        <!-- Add the search bar here -->
+        <input type="text" id="searchBar" placeholder="Search..." style="width: 97%;">
         
         <table id="dataTable">
             <thead>
                 <tr>
                     <th>Name</th>
                     <th>Date of Birth</th>
+                    <th>District</th>
+                    <th>State</th>
+                    <th>Country</th>
                     <th style="text-align: center;">Age</th>
                     <th style="text-align: center;">Action</th>
                 </tr>

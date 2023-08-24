@@ -1,34 +1,78 @@
 {
   "data": [
     {
-      "name": "John",
-      "dateOfBirth": "1999-01-11",
-      "age": 24,
+      "name": "ANIKET PAUL",
+      "dateOfBirth": "2015-02-02",
+      "age": "8",
+      "district": "K",
+      "state": "WB",
+      "country": "India",
       "id": 1
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "dateOfBirth": "1985-10-21",
-      "age": 38
-    },
-    {
-      "name": "Anikt Paul",
-      "dateOfBirth": "1997-11-16",
-      "age": "25",
-      "id": 3
-    },
-    {
-      "name": "Swati shah",
-      "dateOfBirth": "2004-05-10",
-      "age": 19,
-      "id": 4
-    },
-    {
       "name": "Aniket",
-      "dateOfBirth": "2017-01-02",
-      "age": 6,
-      "id": 5
+      "dateOfBirth": "2017-05-07",
+      "age": "6",
+      "district": "HYDERABAD",
+      "state": "Telangana",
+      "country": "India",
+      "id": 2
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "name": "ADILABAD",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "BHADRADRI KOTHAGUDEM",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "HANUMAKONDA",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "HYDERABAD",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "name": "JAGTIAL",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "name": "JANGOAN",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 7,
+      "name": "JAYASHANKAR BHOOPALPALLY",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 8,
+      "name": "JOGULAMBA GADWAL",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 9,
+      "name": "KAMAREDDY",
+      "state": "Telangana",
+      "country": "India"
     }
   ]
 }
