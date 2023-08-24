@@ -1,15 +1,6 @@
 {
   "data": [
     {
-      "name": "ANIKET PAUL",
-      "dateOfBirth": "2015-02-02",
-      "age": "8",
-      "district": "K",
-      "state": "WB",
-      "country": "India",
-      "id": 1
-    },
-    {
       "name": "Aniket",
       "dateOfBirth": "2017-05-07",
       "age": "6",
@@ -17,6 +8,24 @@
       "state": "Telangana",
       "country": "India",
       "id": 2
+    },
+    {
+      "name": "Anik",
+      "dateOfBirth": "2017-12-31",
+      "age": "5",
+      "district": "HANUMAKONDA",
+      "state": "Telangana",
+      "country": "India",
+      "id": 3
+    },
+    {
+      "name": "Swati",
+      "dateOfBirth": "",
+      "age": "11",
+      "district": "BHADRADRI KOTHAGUDEM",
+      "state": "Telangana",
+      "country": "India",
+      "id": 4
     }
   ],
   "districts": [
