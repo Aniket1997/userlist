@@ -10,22 +10,22 @@
       "id": 2
     },
     {
-      "name": "Anik",
-      "dateOfBirth": "2017-12-31",
-      "age": "5",
-      "district": "HANUMAKONDA",
+      "name": "Anikt Paul",
+      "dateOfBirth": "2018-01-01",
+      "age": "9",
+      "district": "HYDERABAD",
       "state": "Telangana",
       "country": "India",
-      "id": 3
+      "id": 5
     },
     {
-      "name": "Swati",
-      "dateOfBirth": "",
-      "age": "11",
-      "district": "BHADRADRI KOTHAGUDEM",
+      "name": "Anikt Paul",
+      "dateOfBirth": "2015-01-05",
+      "age": "8",
+      "district": "HYDERABAD",
       "state": "Telangana",
       "country": "India",
-      "id": 4
+      "id": 6
     }
   ],
   "districts": [
