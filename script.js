@@ -84,6 +84,7 @@ $(document).ready(async function () {
             entry.name.toLowerCase().includes(filter.toLowerCase()) ||
             formatDate(entry.dateOfBirth).includes(filter) ||
             entry.age.toString().includes(filter) ||
+            entry.district.toLowerCase().includes(filter.toLowerCase()) ||
             entry.state.toLowerCase().includes(filter.toLowerCase()) ||
             entry.country.toLowerCase().includes(filter.toLowerCase()) // Add this line for state filtering
         );
