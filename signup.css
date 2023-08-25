@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    background: #FFF;
+    width: 308px;
+    height: auto;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin-bottom: 12px;
+    
+    
+}
+input,select{
+    border-radius: 3px;
+    border: 1px solid #2F2763;
+    height: 40px;
+    width: 285px;
+    background: #FFF;
+    width: 100%;
+}
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add some spacing */
+    max-width: 100px; /* Adjust the size of the logo as needed */
+}
