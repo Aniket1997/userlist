@@ -1,87 +1,21 @@
 {
   "data": [
     {
-      "name": "Aniket",
-      "dateOfBirth": "2017-05-07",
-      "age": "6",
-      "district": "HYDERABAD",
-      "state": "Telangana",
+      "username": "aniketpaul1997",
+      "email": "aniketpaul1997@gmail.com",
+      "password": "haK2dqGizBA9kMG",
+      "confirm_password": "haK2dqGizBA9kMG",
+      "designation": "Employee",
+      "id": 1
+    },
+    {
+      "name": "ANIKET PAUL",
+      "dateOfBirth": "2020-01-26",
+      "age": "3",
+      "district": "KOLKATA",
+      "state": "WEST BENGAL",
       "country": "India",
       "id": 2
-    },
-    {
-      "name": "Anikt Paul",
-      "dateOfBirth": "2018-01-01",
-      "age": "9",
-      "district": "HYDERABAD",
-      "state": "Telangana",
-      "country": "India",
-      "id": 5
-    },
-    {
-      "name": "Anikt Paul",
-      "dateOfBirth": "2015-01-05",
-      "age": "8",
-      "district": "HYDERABAD",
-      "state": "Telangana",
-      "country": "India",
-      "id": 6
-    }
-  ],
-  "districts": [
-    {
-      "id": 1,
-      "name": "ADILABAD",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 2,
-      "name": "BHADRADRI KOTHAGUDEM",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 3,
-      "name": "HANUMAKONDA",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 4,
-      "name": "HYDERABAD",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 5,
-      "name": "JAGTIAL",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 6,
-      "name": "JANGOAN",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 7,
-      "name": "JAYASHANKAR BHOOPALPALLY",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 8,
-      "name": "JOGULAMBA GADWAL",
-      "state": "Telangana",
-      "country": "India"
-    },
-    {
-      "id": 9,
-      "name": "KAMAREDDY",
-      "state": "Telangana",
-      "country": "India"
     }
   ]
 }
