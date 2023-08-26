@@ -1,21 +1,78 @@
 {
   "data": [
     {
-      "username": "aniketpaul1997",
-      "email": "aniketpaul1997@gmail.com",
-      "password": "haK2dqGizBA9kMG",
-      "confirm_password": "haK2dqGizBA9kMG",
-      "designation": "Employee",
+      "name": "Aniket",
+      "dateOfBirth": "2017-12-31",
+      "age": "5",
+      "district": "HYDERABAD",
+      "state": "Telangana",
+      "country": "India",
       "id": 1
     },
     {
-      "name": "ANIKET PAUL",
-      "dateOfBirth": "2020-01-26",
-      "age": "3",
-      "district": "KOLKATA",
-      "state": "WEST BENGAL",
+      "name": "Paul",
+      "dateOfBirth": "1997-11-16",
+      "age": "25",
+      "district": "HANUMAKONDA",
+      "state": "Telangana",
       "country": "India",
       "id": 2
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "name": "ADILABAD",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "BHADRADRI KOTHAGUDEM",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "HANUMAKONDA",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "name": "HYDERABAD",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 5,
+      "name": "JAGTIAL",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "name": "JANGOAN",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 7,
+      "name": "JAYASHANKAR BHOOPALPALLY",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 8,
+      "name": "JOGULAMBA GADWAL",
+      "state": "Telangana",
+      "country": "India"
+    },
+    {
+      "id": 9,
+      "name": "KAMAREDDY",
+      "state": "Telangana",
+      "country": "India"
     }
   ]
 }
